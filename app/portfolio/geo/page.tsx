@@ -53,6 +53,7 @@ export default function geo() {
                         alt={item.title}
                         width={350}
                         height={150}
+                        layout="responsive"
                     />
                     <p className="mt-4 text-lg font-bold">{item.title}</p>
                 </div>

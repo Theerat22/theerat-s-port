@@ -18,6 +18,7 @@ const Info = () => {
           alt="Sittha"
           width={180}
           height={180}
+          layout="responsive"
           className="mx-auto aspect-square overflow-hidden object-cover object-center rounded-full border 
             md:w-48 md:h-48 lg:w-64 lg:h-64"
         />
