@@ -2,9 +2,9 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from 'next/image';
-import Nan from "@/public/geo-eco/nan.png";
-import Padthai from "@/public/geo-eco/padthai.png";
-import Product from "@/public/geo-eco/product.png";
+import Nan from "@/public/geoeco/nan.png";
+import Padthai from "@/public/geoeco/Padthai.png";
+import Product from "@/public/geoeco/Product.png";
 
 export default function geo() {
  const item = [
