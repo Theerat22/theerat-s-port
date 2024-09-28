@@ -1,4 +1,4 @@
-import Head from "next/head";
+
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -6,10 +6,7 @@ export default function geo() {
 
   return (
     <>
-      <Head>
-        <title>Theerat's Port</title>
-        <link rel="icon" href="/Avatar-white.svg" />
-      </Head>
+
       <Navbar
         navigationType={"single"}
         items={[

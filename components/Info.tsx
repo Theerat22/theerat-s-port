@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { BsArrowUpRight } from "react-icons/bs";
-import { Button } from '@headlessui/react';
 import Sittha from "@/public/sittha.jpg";
 import Link from "next/link";
 import { MdPortrait } from "react-icons/md";

@@ -1,7 +1,3 @@
-// import { useEffect } from "react";
-// import { useTheme } from "next-themes";
-import Head from "next/head";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Info from "@/components/Info";
 import Footer from "@/components/Footer";
@@ -9,18 +5,15 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Theerat's Port</title>
-        <link rel="icon" href="/Avatar-white.svg" />
-      </Head>
+
       <Navbar
         navigationType={"single"}
         items={[
           {
             name: "Home",
-            path: "/home",
+            path: "#home",
           },
-          { name: "Portfolio", path: "/portfolio" },
+          { name: "Portfolio", path: "#portfolio" },
           {
             name: "Activities",
             path: "#activities",

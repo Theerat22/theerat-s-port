@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { FaGavel } from 'react-icons/fa';
 import { FaTree, FaEarthAsia, FaStar } from "react-icons/fa6";
 import { GiCookingPot } from "react-icons/gi";
 import { BiMath } from "react-icons/bi";
