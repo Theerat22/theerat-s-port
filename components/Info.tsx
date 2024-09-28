@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { BsArrowUpRight } from "react-icons/bs";
-import Sittha from "@/public/sittha.png";
+import Sittha from "../public/theerat.jpg";
 import Link from "next/link";
 import { MdPortrait } from "react-icons/md";
 import { HiUserGroup } from "react-icons/hi2";
