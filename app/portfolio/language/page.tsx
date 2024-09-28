@@ -1,7 +1,8 @@
 
 import Navbar from "@/components/Navbar";
 import React from "react";
-
+import Image from "next/image";
+import Mixue from "@/public/language/mixue.jpg";
 export default function geo() {
 
   return (
@@ -34,13 +35,30 @@ export default function geo() {
                 <iframe
                     className="w-full aspect-video self-stretch md:min-h-96"
                     src="https://www.youtube.com/embed/J3b9I0tGSYA"
-                    title="Product Overview Video"
+                    title="Short Film"
                     aria-hidden="true"
                 />
                 <p className="mt-4 text-lg font-bold">English Short Film</p>
             </div>
+            <div className="flex flex-col p-3 items-center text-center">
+                <iframe
+                    className="w-full aspect-video self-stretch md:min-h-96"
+                    src="https://www.youtube.com/embed/iQ0k9J3A8H0"
+                    title="My Role Model"
+                    aria-hidden="true"
+                />
+                <p className="mt-4 text-lg font-bold">My Role Model</p>
+            </div>
+            <div className="flex flex-col p-3 items-center text-center" >
+                    <Image
+                        src={Mixue}
+                        alt="Mixue"
+                        width={350}
+                        height={150}
+                    />
+                    <p className="mt-4 text-lg font-bold">กิจกรรม วันไหว้บ๊ะจ่าง</p>
+            </div>
 
-            
 
         </div>
 
