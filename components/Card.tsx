@@ -3,6 +3,7 @@ import { FaTree, FaEarthAsia, FaStar } from "react-icons/fa6";
 import { IoLanguage } from "react-icons/io5";
 import { BiMath } from "react-icons/bi";
 import { CiMusicNote1 } from "react-icons/ci";
+import { PiCookingPot } from "react-icons/pi";
 export default function IconGrid() {
   const items = [
     { icon: <IoLanguage size={60} />, title: 'ภาษาต่างประเทศ', href: 'portfolio/language' },
@@ -11,6 +12,7 @@ export default function IconGrid() {
     { icon: <BiMath  size={60} />, title: 'คณิตศาสตร์', href: 'portfolio/math' },
     { icon: <FaStar size={60} />, title: 'ดาราศาสตร์', href: 'portfolio/astro' },
     { icon: <CiMusicNote1 size={60} />, title: 'ดนตรีสากล', href: 'portfolio/music' },
+    { icon: <PiCookingPot size={60} />, title: 'สร้างสรรค์งานฝีมือ', href: 'portfolio/cooking' },
 
   ];
 

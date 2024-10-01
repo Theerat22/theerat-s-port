@@ -5,7 +5,7 @@ import Ai1 from "@/public/activities/ai1.jpg";
 import Ai2 from "@/public/activities/ai2.jpg";
 import Swi1 from "@/public/activities/swi1.jpg";
 import Swi2 from "@/public/activities/swi2.jpg";
-export default function geo() {
+export default function Activities() {
   return (
     <>
       <Navbar
@@ -13,7 +13,7 @@ export default function geo() {
         items={[
           {
             name: "Home",
-            path: "#home",
+            path: "#",
           },
           { name: "Portfolio", path: "#" },
           {
