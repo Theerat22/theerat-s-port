@@ -3,6 +3,7 @@ import React from "react";
 import Image from 'next/image';
 import Ai1 from "@/public/activities/ai1.jpg";
 import Ai2 from "@/public/activities/ai2.jpg";
+import Ai3 from "@/public/activities/Ai3.png";
 import Swi1 from "@/public/activities/swi1.jpg";
 import Swi2 from "@/public/activities/swi2.jpg";
 export default function Activities() {
@@ -43,6 +44,13 @@ export default function Activities() {
                     />
                     <Image
                         src={Ai2}
+                        alt="Ai Builders"
+                        width={500}
+                        height={350}
+                        className="w-full lg:w-1/2 rounded-lg"
+                    />
+                    <Image
+                        src={Ai3}
                         alt="Ai Builders"
                         width={500}
                         height={350}
